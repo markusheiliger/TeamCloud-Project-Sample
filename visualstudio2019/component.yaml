@@ -42,6 +42,9 @@ tasks:
   - id: stop
     name: Stop
     description: Start and deallocate all VM resources managed by the component
+
+taskRunner:
+  id: teamcloud/tcrunner-arm
     
 permissions:
 
@@ -53,5 +56,3 @@ permissions:
   
   - role: member
     permission: Contributor
-
-provider: teamcloud/tcrunner-arm

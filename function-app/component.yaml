@@ -49,9 +49,10 @@ tasks:
     name: Clear
     description: Delete all resources, but keep the component alive.
 
+taskRunner:
+  id: teamcloud/tcrunner-arm
+  
 permissions:
 
   - role: owner
     permission: Contributor
-
-provider: teamcloud/tcrunner-arm
