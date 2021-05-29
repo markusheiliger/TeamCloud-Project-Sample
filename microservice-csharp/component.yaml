@@ -13,9 +13,11 @@ parameters:
 
 tasks:
 
+taskRunner:
+  id: teamcloud/tcrunner-arm
+  
 permissions:
 
   - role: owner
     permission: Contributor
-
-provider: teamcloud/tcrunner-arm
+    
