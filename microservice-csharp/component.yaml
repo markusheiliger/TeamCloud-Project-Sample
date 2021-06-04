@@ -13,8 +13,8 @@ parameters:
 
 tasks:
 
-taskRunner:
-  id: teamcloud/tcrunner-arm
+# taskRunner:
+#   id: teamcloud/tcrunner-arm
   
 permissions:
 
