@@ -9,6 +9,8 @@ description: ./readme.md
 
 configuration:
 
+  templateRepo: https://github.com/Azure-Samples/webapi-dotnet.git
+  
 parameters:
 
 tasks:
