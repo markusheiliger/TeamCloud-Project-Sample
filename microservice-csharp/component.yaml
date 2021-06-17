@@ -9,7 +9,7 @@ description: ./readme.md
 
 configuration:
 
-  templateRepository: https://github.com/Azure-Samples/webapi-dotnet.git
+  templateRepository: https://github.com/tcmarkushe/webapi-dotnet.git
 
 parameters:
 
