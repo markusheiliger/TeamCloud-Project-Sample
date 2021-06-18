@@ -1,0 +1,25 @@
+# set the display name of the component
+name: Microservice C# (MSVersion)
+
+# Set the component type
+type: Repository
+
+# set the component description
+description: ./readme.md
+
+configuration:
+
+  templateRepository: https://github.com/Azure-Samples/webapi-dotnet.git
+
+parameters:
+
+tasks:
+
+# taskRunner:
+#   id: teamcloud/tcrunner-arm
+  
+permissions:
+
+  - role: owner
+    permission: Contributor
+    
