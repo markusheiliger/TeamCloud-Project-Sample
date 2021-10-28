@@ -1,0 +1,22 @@
+# set the display name of the component
+name: Hello Kubernetes
+
+# Set the component type
+type: Namespace
+
+# set the component description
+description: ./readme.md
+
+configuration:
+
+  
+
+parameters:
+
+tasks:
+
+taskRunner:
+  id: teamcloud/tcrunner-helm
+  
+permissions:
+    
