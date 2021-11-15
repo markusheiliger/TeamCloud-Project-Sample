@@ -8,7 +8,7 @@ trace "Credentials"
 tree /mnt/credentials
 
 trace "Password"
-/mnt/credentials/password
+cat /mnt/credentials/password
 
 trace "Kubernetes config" 
 kubectl config view
