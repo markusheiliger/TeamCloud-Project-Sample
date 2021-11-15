@@ -9,11 +9,13 @@ description: ./readme.md
 
 configuration:
 
-  
-
 parameters:
 
-tasks:
+  tasks:
+
+  - id: test
+    name: Test
+    description: Test script
 
 taskRunner:
   id: teamcloud/tcrunner-helm
