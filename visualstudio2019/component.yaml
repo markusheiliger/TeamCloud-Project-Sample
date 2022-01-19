@@ -44,7 +44,7 @@ tasks:
     description: Start and deallocate all VM resources managed by the component
 
 taskRunner:
-  id: teamcloud/tcrunner-arm
+  id: teamcloud.azurecr.io/teamcloud/tcrunner-arm
     
 permissions:
 

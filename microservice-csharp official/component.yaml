@@ -16,7 +16,7 @@ parameters:
 tasks:
 
 # taskRunner:
-#   id: teamcloud/tcrunner-arm
+#   id: teamcloud.azurecr.io/teamcloud/tcrunner-arm
   
 permissions:
 

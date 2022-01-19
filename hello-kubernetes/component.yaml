@@ -18,7 +18,7 @@ tasks:
     description: Test script
 
 taskRunner:
-  id: teamcloud/tcrunner-helm
+  id: teamcloud.azurecr.io/teamcloud/tcrunner-helm
   
 permissions:
     
