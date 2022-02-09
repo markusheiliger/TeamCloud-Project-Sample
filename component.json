@@ -172,9 +172,12 @@
                 "id": {
                     "type": "string",
                     "examples": [
-                        "teamcloud/tcrunner-arm",
-                        "teamcloud/tcrunner-terraform"
+                        "teamcloud.azurecr.io/teamcloud/tcrunner-arm",
+                        "teamcloud.azurecr.io/teamcloud/tcrunner-terraform"
                     ]
+                },
+                "webServer": {
+                    "type": "boolean"
                 }
             }
         },
